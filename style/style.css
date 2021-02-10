@@ -1,3 +1,7 @@
+
+/*
+leroy Abiguime
+*/
 * {
     padding: 0px;
     margin: 0px;
@@ -9,7 +13,7 @@
 header {
     display: flex;
     background-color: #BE3144;
-    height: 10vh;
+    /* height: 10vh; */
     width: 100%;
      align-items: center;
      justify-content: flex-end;
@@ -34,8 +38,8 @@ display: flex;
     text-decoration: none;
     font-weight: 600;
     color: #FFF;
-    font-size: 1.65rem;
-    padding: 32px;
+    font-size: 1.55rem;
+    padding: 20px;
 }
 
 .nav-link:hover  {
@@ -66,68 +70,136 @@ display: flex;
 
 }
 .text-center {
-    /* display: flex; */
     text-align: center;
 }
 .text-huge {
     color: #FFF;
-    font-weight: 6OO;
+    font-weight: 600;
     font-size: 2.5rem;
 
 }
+.text-huge2 {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 5rem;
+}
 hr {
-    width: 50%;
+    width: 40%;
     margin: auto;
 }
 .img-fluid {
-    width: 400px;
-    height: 65vh;
+    width: 100%;
+    height: 45vh;
+    /* border: 1px solid salmon; */
+    object-fit: cover;
 }
 .container {
-    width: 100%;
-  padding-top: 30px;
+  width: 100%;
+  padding: 50px 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 2rem;
-
   
 }
 .link {
     text-align: center;
     text-decoration: none;
-    /* background-color: #303841; */
-    /* max-width: 400px; */
-    width: 405px;
-    border: 1px solid red;
+    background-color: #303841;
+    color: #FFF;
+    font-weight: 800;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
 }
 .button {
 display: flex;
 align-items: center;
 justify-content: center;
-/* background-color: red; */
-height: 7vh;
 
 }
-.wi {
-    font-weight: 800;
-}
-button {
+
+
+.btn {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-font-weight: 800;
-font-size: 4vh;
-    width: 190px;
-    height: 7vh;
+font-size: 2rem;
+
+    background-color: #303841;
+    color: #FFF;
+    border-radius: 2px;
+    transition: transform 0.8s ease-out;
+    /* padding: 0px; */
 }
-button:hover {
+.btn:hover {
     background-color: red;
+    cursor: pointer;
+    transform: translateY(9px);
 }
 .description-img {
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    height: 7vh;
+    width:100%;
+    font-size: 1.2rem;
+}
+
+.work {
+    width: 100%;
+    background-color: #303841;
+    /* height: 80vh; */
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.work-description {
     text-align: center;
-    height: 5vh;
-    width:352px;
+    color: #FFF;
+
+}
+.contact-links {
+    margin: 0 auto;
+padding:0px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .contact-links a {} */
+.btn-contact-details {
+    padding: 1rem 1.5rem;
+    font-size: 1.7rem;
+    transition: transform 0.3s ease-out;
+    color: #FFF;
+    text-decoration: none;
+}
+.btn-contact-details:hover {
+    transform: translateY(8px);
+}
+.fab {
+    margin: .4rem;
+}
+.fas {
+    margin: .4rem;
+
+}
+.hr {
+    width: 100%;
+    height: 3px;
+    border: 0px;
+    background-color: red;
+}
+footer {
+    width: 100%;
+    background-color: #303841;
+color: #FFF;
+display: flex;
+justify-content: space-evenly;
+padding: 40px;
+font-size: 1.1rem;
 }
